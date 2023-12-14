@@ -250,7 +250,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/people-office\1.jpg);
+    background-image: url(../images/people-office\ 1.jpg);
 }
 
 .container {}
