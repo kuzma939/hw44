@@ -92,19 +92,10 @@ button {
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
-    position: relative; 
-    color: #404bbf;
+  
 
 }
-.header-logo::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px; 
-    height: 4px;
-    background-color: #404bbf; 
-    border-radius: 2px;
-}
+
 
 .header-logo-stydio {
     color: #2E2F42;
@@ -129,19 +120,13 @@ button {
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.header-item-stydio {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 
 .header-item-stydio {
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.header-item-stydio {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    position: relative; 
+    color: #404bbf;
 }
 
 .header-item-stydio:hover {
@@ -151,6 +136,15 @@ button {
 
 .header-item-stydio:focus {
     color: #404bbf;
+}
+.header-item-stydio::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px; 
+    height: 4px;
+    background-color: #404bbf; 
+    border-radius: 2px;
 }
 
 .header-item {
@@ -257,8 +251,8 @@ button {
     background-color: #2e2f42;
     padding: 188px 0;
     background-size: cover;
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
-    max-width: 1440px;
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../images/people-office\ 1.jpg);
@@ -451,7 +445,9 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.mark {
+    padding: 32px 0;
+}
 
 
 .list-insta {
@@ -474,6 +470,7 @@ button {
     align-items: center;
     justify-content: center;
     fill: #f4f4fd;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .instagram:hover {
@@ -679,6 +676,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-media:hover {
