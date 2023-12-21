@@ -29,8 +29,8 @@ h2,
 h3,
 h4,
 h5,
-p,
-ul {
+p
+{
     margin: 0;
 }
 
@@ -41,7 +41,9 @@ ol {
 }
 
 ul {
+    list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .link,
@@ -66,13 +68,15 @@ button {
 }
 
 .container {
-
+    max-width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header-conteiner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-nav {
@@ -199,7 +203,7 @@ button {
 
 .container {
 
-   
+  
 }
 
 .hero-title {
@@ -254,7 +258,9 @@ button {
     background-color: #FFFFFF;
 }
 
-.container {}
+.container {
+   
+}
 
 .visually-hidden {
     position: absolute;
@@ -266,7 +272,7 @@ button {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
+    
 }
 
 
@@ -324,6 +330,11 @@ button {
     padding: 120px 0;
     background-color: #F4F4FD;
 
+}
+.container-team {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section-team-our-title {
@@ -511,11 +522,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 120px;
     width: 1440px;
  height: 312px;
- top: 2988px;
+ top: 2288px;
 }
 .footer-c {
     display: flex; 
     align-items: baseline;
+   
 }
 
 
