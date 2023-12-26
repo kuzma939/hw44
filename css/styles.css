@@ -434,6 +434,9 @@ gap: 8px;
     background-color: #404bbf;
 }
 .inst-svg {
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
     fill: #f4f4fd;
 }
 /*Portfolio*/
@@ -633,5 +636,8 @@ font-weight: 500;
     background-color: #31d0aa;
 }
 .footer-svg {
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
     fill: #F4F4FD
 }
