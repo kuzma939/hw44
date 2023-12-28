@@ -138,10 +138,14 @@ button {
     content: '';
     position: absolute;
     left: 0;
+    width: 100%;
     bottom: -1px; 
     height: 4px;
     background-color: #404bbf; 
     border-radius: 2px;
+}
+.header-item-st {
+    color: #2E2F42 ;
 }
 .address {
     margin-left: auto;
@@ -357,11 +361,11 @@ button {
 .section-team-item {
    
    display: inline-flex;
-padding-bottom: 32px;
+
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 32px;
+
    border-radius: 0px 0px 4px 4px;
    background-color: #FFFFFF;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -534,7 +538,7 @@ align-self: stretch;
 .footer {
     padding: 100px 0;
     background: #2E2F42;
-    display: flex;
+   
     align-items: baseline;
     margin-right: 120px;
     width: 1440px;
@@ -544,7 +548,9 @@ align-self: stretch;
 .footer-c {
     display: flex; 
     align-items: baseline;
-   
+    width: 1158px;
+    padding: 0 15px;
+   margin: 0 auto;
 }
 
 
@@ -552,7 +558,9 @@ align-self: stretch;
     width: 264px;
 height: 112px;
 flex-shrink: 0;
-
+top: 3088px;
+left: 156px;
+margin-right: 120px;
 
 
 }
@@ -589,10 +597,7 @@ flex-shrink: 0;
     color: #F4F4FD; 
 }
 .f-media {
-    width: 208px;
-height: 80px;
-top: 3256px;
-left: 540px;
+  
 
 }
 
